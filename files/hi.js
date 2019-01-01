@@ -27,6 +27,24 @@ var x = setInterval(function() {
   // If the count down is finished, write some text 
   if (distance < 0) {
     clearInterval(x);
-    //Por editar :)
+ 	  //Por editar :)
+	  document.getElementById("demo").innerHTML="♥ Anais te amo♥";
+	  document.getElementById("img1").src="./files/2.png";
+	  document.getElementById("img2").src="./files/0.png";
+	  document.getElementById("img3").src="./files/1.png";
+	  document.getElementById("img4").src="./files/9.png";
+	  document.getElementById("h2nuevo").innerHTML=" ¡Feliz año nuevo!";
+	  document.getElementById("linea1").innerHTML="Buen comienzo para enero,<br>";
+	  document.getElementById("linea2").innerHTML="amor para febrero,<br>";
+	  document.getElementById("linea3").innerHTML="paz para marzo,<br>";
+	  document.getElementById("linea4").innerHTML="no se preocupe por abril,<br>";
+	  document.getElementById("linea5").innerHTML="diversión para mayo,<br>";
+	  document.getElementById("linea6").innerHTML="alegría de junio a noviembre,<br>";
+	  document.getElementById("linea7").innerHTML="felicidad para diciembre.<br>";
+	  document.getElementById("linea8").innerHTML="¡Ten un afortunado y maravilloso 2019!<br>";  
+	  document.body.style.backgroundImage = "url('./files/r.gif')";
+	  document.body.style.backgroundSize = "auto";
+	  document.body.style.backgroundRepeat = "repeat";
+	  
   }
 }, 1000);
